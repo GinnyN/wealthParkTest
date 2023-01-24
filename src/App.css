@@ -1,0 +1,116 @@
+body {
+  background: rgb(181,46,162);
+  background: linear-gradient(45deg, rgba(181,46,162,1) 0%, rgba(90,69,159,1) 51%, rgba(0,255,179,1) 100%);
+  font-family: 'Sofia Sans', sans-serif;
+}
+.App{
+  background: white;
+  margin: 5vh;
+  padding: 10px;
+  height: 90vh;
+  display: grid;
+  grid-template-rows: 1fr 8fr 1fr;
+  border-radius: 10px;
+  -webkit-box-shadow: 3px 4px 10px 14px rgba(255,255,255,0.8);
+  -moz-box-shadow: 3px 4px 10px 14px rgba(255,255,255,0.8);
+  box-shadow: 3px 4px 10px 14px rgba(255,255,255,0.8);
+  overflow: hidden;
+}
+
+.container {
+  overflow-y: auto;
+  overflow-x: none;
+}
+
+.spinner {
+  height: 40px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.item {
+  height: 40px;
+  padding: 10px;
+  display: flex;
+  align-items: flex-end;
+}
+h2 {
+  font-family: 'Josefin Slab', serif;
+  margin: 0;
+}
+h2, small {
+  padding-left: 10px;
+}
+a{
+  text-decoration: none;
+  color: #101010;
+}
+a:hover {
+  color: rgb(181,46,162);
+}
+
+.paginator {
+  display: flex;
+  justify-content: space-between;
+}
+
+.paginator button {
+  border-radius: 100px;
+  height: 50px;
+  width: 50px;
+  background-color: white;
+  border: 2px solid rgb(181,46,162);
+}
+.paginator button:hover {
+  background: linear-gradient(45deg, rgba(181,46,162,1) 0%, rgba(90,69,159,1) 51%, rgba(0,255,179,1) 100%);
+  border: 2px solid white;
+  color: white;
+}
+.fadeInRightClass {
+  animation-name: fadeInRight;
+  animation-duration: 500ms;
+}
+
+.fadeInLeftClass {
+  animation-name: fadeInLeft;
+  animation-duration: 500ms;
+}
+
+@keyframes fadeInRight {
+  0%{
+    opacity: 1;
+  }
+
+  45%{
+    opacity: 0.1;
+    transform: translate3d(-100%, 0, 0);
+  }
+  50% {
+    transform: translate3d(100%, 0, 0);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes fadeInLeft {
+  0%{
+    opacity: 1;
+  }
+
+  45%{
+    opacity: 0.1;
+    transform: translate3d(100%, 0, 0);
+  }
+  50% {
+    transform: translate3d(-100%, 0, 0);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}

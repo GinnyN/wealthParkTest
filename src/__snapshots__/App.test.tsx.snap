@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Snapshot First Page First Load Match Snapshot 1`] = `
+<div
+  className="App"
+>
+  <div>
+    <h1>
+      HackerNews Top Stories
+    </h1>
+  </div>
+  <div
+    className="container "
+  />
+  <div
+    className="paginator"
+  >
+    <button
+      className="back"
+      disabled={true}
+      onClick={[Function]}
+    >
+      ⇐
+    </button>
+    <div>
+      1
+    </div>
+    <button
+      className="forward"
+      disabled={false}
+      onClick={[Function]}
+    >
+      ⇒
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Snapshot Item 1`] = `
+<div
+  className="item"
+>
+  <img
+    alt="Loading..."
+    className="spinner"
+    src="/src/assets/grid.svg"
+  />
+</div>
+`;
+
+exports[`Snapshot Item Snapshot for item 5888 are equal 1`] = `
+<div
+  className="item"
+>
+  <img
+    alt="Loading..."
+    className="spinner"
+    src="/src/assets/grid.svg"
+  />
+</div>
+`;
