@@ -1,3 +1,19 @@
+# Test for Wealth Park
+`By Ximena Contreras`
+
+This is a Proyect created using Create React App with the Typescript flag.
+- To run it on local, please run `npm start`
+- To run the tests, please run `npm test`
+
+Any comments or questions please send an email to [satelliteg@gmail.com]()
+
+Thanks a lot for allow me this opportunity. 
+
+Original Readme to follow
+
+----
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
